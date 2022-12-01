@@ -8,3 +8,145 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+
+/* Iteration 1 */
+
+@media (min-width: 768px){
+
+body{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    background-color: #540B51 ;
+    justify-content: space-between;
+    width: 70%;
+    height: 50px;
+    font-size: 1em;
+    }
+
+.imgnav {
+    width: 100%;
+    height: 100%;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#slacklogo {
+width: 100px;
+}
+
+#searchicon{
+    width: 20px;
+    background-color: #540B51;
+
+}
+#menuicon{
+    width: 20px;
+    background-color: #540B51;
+}
+
+header{
+    display: flex;
+    width: 70%;
+    height: 800px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    background-color: #540B51;
+    
+}
+
+h1{
+    color:white;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p{
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white
+
+}
+
+#signup{
+    height: 50px;
+    width: 90%;
+    text-transform:uppercase;
+    background-color: white;
+    font-weight: bold;
+    color:#540B51
+}
+
+#googlebtn{
+    height: 50px;
+    width: 90%;
+    background-color: #4285F4;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    
+}
+
+#googleimg{
+    width: 30px;
+    background-color: white;
+    padding:3px;
+
+}
+span{
+    text-transform:uppercase;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+#screenshotimg {
+width: 150%;
+margin-top: 80px;
+}
+
+main{
+    background-color: #F3EAE2;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border: 4px solid red;
+    width: 70%;
+
+}
+
+p{
+    color:black;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    
+}
+
+.logo>img{
+   height: 40px;
+   margin: 20px;
+}
+
+#connectedness{
+width: 90%;
+margin-top:20px;
+margin-right: 10px; 
+}
+}
